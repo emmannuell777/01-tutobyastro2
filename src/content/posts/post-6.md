@@ -1,5 +1,4 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
 title: Mi sexta entrada en el blog
 author: Alumno de Astro
 description: "He visto varios temas ya, y finalmente he agregado una botón para cambiar a modo oscuro"

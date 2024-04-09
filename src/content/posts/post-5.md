@@ -1,5 +1,4 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
 title: Mi quinta entrada en el blog
 author: Alumno de Astro
 description: "Se ha agregado una función para generar un RSS, quedó muy cool"

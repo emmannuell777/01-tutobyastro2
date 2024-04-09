@@ -1,9 +1,7 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
-
 title: 'Mi primera publicación en el blog'
 pubDate: 2024-04-08
-desc: 'Esta es la primera publicación de mi nuevo blog Astro.'
+description: 'Esta es la primera publicación de mi nuevo blog Astro.'
 author: 'Emanuel'
 image:
   url: 'https://docs.astro.build/assets/full-logo-light.png'
