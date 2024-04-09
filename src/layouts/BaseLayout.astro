@@ -1,12 +1,11 @@
 ---
+import { ViewTransitions, fade } from 'astro:transitions';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 
 import '../styles/global.css';
 
 const { pageTitle } = Astro.props;
-
-
 ---
 
 <html lang='es'>
@@ -16,15 +15,16 @@ const { pageTitle } = Astro.props;
     <meta name='viewport' content='width=device-width' />
     <meta name='generator' content={Astro.generator} />
     <title>{pageTitle}</title>
-    
+    <ViewTransitions />
   </head>
   <body>
     <Header />
-    <h1>{pageTitle}</h1>
+    <h1 transition:animate={fade({ duration: '2s '})}>{pageTitle}</h1>
     <slot />
     <Footer />
     <script>
       import '../scripts/menu.js';
+      import '../scripts/theme.js';
     </script>
   </body>
 </html>

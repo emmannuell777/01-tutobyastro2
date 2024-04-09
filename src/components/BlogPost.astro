@@ -2,8 +2,8 @@
 const { url, title, pubDate } = Astro.props;
 ---
 
-<li>
-  <a href={url}>{title}</a>
+<li class="post-links">
+  <a  href={url}>{title}</a>
   {
     pubDate && (
       <div class='s7'>

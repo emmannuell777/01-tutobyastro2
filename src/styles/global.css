@@ -40,6 +40,10 @@ h1 {
   margin: 0;
 }
 
+.post-links {
+  list-style: none;
+}
+
 .nav-links a {
   display: block;
   text-align: center;
@@ -59,7 +63,7 @@ h1 {
   display: unset;
 }
 
-.s7{
+.s7 {
   font-size: 0.8rem;
 }
 
@@ -106,5 +110,18 @@ html.dark {
 }
 
 .dark .nav-links a {
+  color: #fff;
+}
+
+.dark a {
+  color: #ff9776;
+}
+
+.dark .post-links {
+  list-style: none;
+}
+
+.dark button {
+  background-color: purple;
   color: #fff;
 }
